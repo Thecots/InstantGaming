@@ -1,0 +1,137 @@
+.soli-box{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.soli-friend-box{
+    width: auto;
+    height: 120px;
+    background-color: rgb(147 64 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+}
+
+.soli-friend-box .img{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soli-friend-box .img img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.imh{
+    display: flex;
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    background-color: rgba(102, 51, 153, 0);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+
+    color: rgba(255, 0, 0, 0);
+}
+.imh p {
+    margin-bottom: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.imh:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.384) 0%, rgba(0, 0, 0, 0.384) 5%, rgba(0,212,255,0) 100%);
+    color: white;
+}
+
+.soli-friend-box .bodyt{
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.soli-friend-box .bodyt p{
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.siono{
+    width: 230px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.siono a{
+    margin: 5px;
+    background-color: red;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.siono a:first-child{
+    background-color: green;
+}
+
+.nofriend{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.nofriend img{
+    margin: 35px;
+    width: 90px;
+    transform: scale(1.5);
+}
+
+.frh1l{
+    margin: 10px;
+    margin-left: 25PX;
+    color: rgb(147 64 255);
+    position: absolute;
+    background: white;
+    padding: 10PX;
+    z-index: 5;
+    font-size: 18px;
+}
+
+.fffa{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.fffa div{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(147 64 255);
+}
+

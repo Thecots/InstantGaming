@@ -1,0 +1,78 @@
+.ped-game-box{
+    width: 95%;
+    height: 111px;
+    border-radius: 5px;
+    background-color: #9340ff7a;    display: flex;
+    margin: 10px 0;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.158);
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pedid-box{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ped-game-box .img{
+    width: 80px;
+    height: 111px;
+}
+
+.ped-game-box .img img{
+    width: 80px;   
+}
+
+.infog p:first-child{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.infog p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+}
+.infog{
+    width: 80%;
+    height: 111px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gbf{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(50, 205, 50);
+    margin-right: 5px;
+}
+
+.infog p:last-child{
+    color: rgb(0, 0, 0);
+}
+.statush{
+    display: flex;
+    align-items: center;
+}
+
+.pedid-box a{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

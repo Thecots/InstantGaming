@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #dae0e6;
+}
+/* ----- HEADER -----*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+
+    padding: 0 5%;
+    box-sizing: border-box;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0 0 10px #00000042;
+}
+
+header .img{
+    width: 300px;
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    color: #9340ff;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header .img img{
+    width: 45px;
+    margin-right: 10px;
+}
+
+header .buscador{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+header .buscador img{
+    width: 20px;
+    position: absolute;
+    left: 6%;
+}
+
+header .buscador input{
+    border: 1px solid rgb(212, 212, 212);
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5%;
+    box-sizing: border-box;
+
+}
+
+header .perfil{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SESSIÓN OFF */
+header .perfil .session-off{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 267px;
+}
+
+header .perfil .session-off a:first-child{
+        font-family: sans-serif;
+        background-color: white;
+        border: 2px solid royalblue;
+        padding: 5px 35px;
+        border-radius: 50px;
+        font-weight: bold;
+        color: royalblue;
+        cursor: pointer;
+}
+
+header .perfil .session-off a:last-child{
+
+    font-family: sans-serif;
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    padding: 5px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* SESSIÓN ON */
+
+header .perfil .session-on{
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .perfil .session-on img:first-child{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    border: 1px solid #0000001c;
+}
+
+header .perfil .session-on img:last-child{
+    width: 28px;
+    height: 28px;
+}
+
+header .perfil .session-off img{
+    width: 50px;
+    border-radius: 50%;
+}
+.conf-user{
+    width: 200px;
+    height: auto;
+    background: white;
+    position: fixed;
+    right: 10%;
+    display: none;
+    flex-direction: column;
+    
+    z-index: 2;
+    box-shadow: 0 7px 18px #0000002e;
+}
+
+.conf-user a {
+    text-decoration: none;
+}
+
+.conf-user p {
+    margin: 0px 0;
+    padding: 12px 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.conf-user p:hover{
+    background: rgb(211, 211, 211);
+
+}
+
+/* BODY */
+.body{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-box{
+    width: 1036px;
+    height: auto;
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.main-header{
+    height: auto;
+    width: 100%;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.main-header img{
+    /*width: 100%;
+    height: auto;
+    background-size: contain; */
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-header .main-price{
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+    font-size: 31px;
+    font-weight: 700;
+    color: black;
+    background: #ffffffd9;
+    padding: 1px 28px 1px 9px;
+}
+
+.games_month{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.games_month .title{
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+}
+.game{
+    width: 180px;
+    height: 280px;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+.game img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.main-box a{
+    text-decoration: none;
+    transition:  0.1s all;
+
+}
+
+.game p {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.games_month a:hover{
+    transform: scale(1.05);
+}
+
+.main-safe{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-safe .box{
+    background-color: rgb(111 0 255 / 39%);
+    width: 95%;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-safe .box .s{
+    display: flex;
+    width: 300px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-safe .box .s img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.black{
+    font-weight: 800;
+}
+
+hr{
+    height: 70px;
+    background: black;
+    border: 0;
+    width: 1px;
+}
+
+p.price-game {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    bottom: 5px;
+    right: 10px;
+    position: absolute;
+}
+
+
+.sombra{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    height: 80px;
+    box-shadow: inset 0 -65px 35px -30px rgb(0 0 0 / 80%);
+    border-radius: 5px;
+}
+
+
+span.solicitudes {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 62px;
+    padding: 2px 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.m-money{
+    width: 20px;
+    height: 10px;
+    background-color: red;
+}
